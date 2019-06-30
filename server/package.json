@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "nodejs-websocket": "^1.7.2",
+    "os": "^0.1.1"
+  }
+}
