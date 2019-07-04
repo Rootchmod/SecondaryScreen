@@ -27,6 +27,7 @@
   import ortherModel from "@/components/orther";
 export default {
   name: 'home',
+    // 以下模块依次分别对应 cpu 内存 显卡 网络 硬盘 其他
   components: {
       cpuModel,ramModel,gpuModel,networkModel,romModel,ortherModel
   },

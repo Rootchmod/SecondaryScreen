@@ -1,4 +1,4 @@
-# SecondaryScreen
+# SecondaryScreen 一个副屏使用的系统资源监控
 ```banner
  ____                                      __                                                                             
 /\  _`\                                   /\ \                                                                            
@@ -10,7 +10,9 @@
                                                                       /\___/                                              
                                                                       \/__/                                               
 ```
-一个副屏使用的系统资源监控
+
+### 项目截图
+暂无
 
 ### 启动开发项目
 ```cmd
@@ -21,3 +23,44 @@ vue run dev
 ```cmd
 vue run build
 ```
+
+### 项目目录
+```cmd
+C:.
+├─htmlscreen
+│  ├─public
+│  │  └─img
+│  │      └─icons
+│  ├─src
+│  │  ├─assets
+│  │  ├─components
+│  │  └─views
+│  └─tests
+│      ├─e2e
+│      │  ├─custom-assertions
+│      │  └─specs
+│      └─unit
+└─server
+    └─node_modules
+        ├─nodejs-websocket
+        └─os
+```
+
+### 前端部分
++ 涉及技术
+    + vue-cli
+    + pug
+    + less
+    + 然后就没有然后了
++ public/manifest.json
+> 此部分内容为pwd上使用的配置
+
++ public/robots.txt
+> 此部分为搜索引擎提供搜索SEO
+ 
+ ### 后台部分
+ + 涉及技术
+    + nodejs-websocket
+    + 然后就没有然后了
+ 
+ > 说明: node后台部分是打算废弃的,目前我还没有找到比较好的获取到cpu温度的方法,还有别的一些东西,nodejs的os模块提供的数据有限.
